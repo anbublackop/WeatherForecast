@@ -11,8 +11,8 @@ class Weather():
 		data3 = json.loads(hardcoded_response.text)
 		return (data3["query"])
 
-	def fToC(self, temp):
+	'''def fToC(self, temp):
 		return temp-32*(0.5556)
 
 	def cToF(self, temp):
-		return temp+32*(0.5556)
+		return temp+32*(0.5556)'''
